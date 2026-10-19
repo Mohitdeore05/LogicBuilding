@@ -1,0 +1,23 @@
+// PRINT 5 to 1
+
+#include<stdio.h>
+#include<stdlib.h>
+
+void Display()
+{
+    int i = 0;
+    i = 5;
+
+    while(i>=1)
+    {
+        printf("%d\n",i);
+        i--;
+    }
+}
+
+int main()
+{
+    Display();
+
+    EXIT_SUCCESS;
+}
