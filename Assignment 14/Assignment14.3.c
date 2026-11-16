@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+void NonFact(int iNo)
+{
+    int iCnt = 0;
+    iCnt = 1;
+
+    while(iCnt <= iNo)
+    {
+        if((iNo % iCnt) != 0)
+        {
+            printf("%d\t",iCnt);
+        }
+        iCnt++;
+    }
+}
+
+int main()
+{
+    int iValue = 0;
+
+    printf("Enter the number : ");
+    scanf("%d",&iValue);
+
+    NonFact(iValue);
+
+    return 0;
+}
